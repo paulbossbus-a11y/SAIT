@@ -1,12 +1,13 @@
 export const site = {
-  name: "Данил Колодин",
-  role: "Видеограф и режиссёр",
+  name: "Криворучко Павел",
+  role: "Главный в продакшене — видеограф и режиссёр",
   phone: "+7 965 307-04-96",
   phoneHref: "tel:+79653070496",
   telegram: "https://t.me/danilkolodin",
   instagram: "https://instagram.com/danilkolodin",
   city: "по вашему городу и с выездом",
 };
+
 
 export const navLinks = [
   { href: "/", label: "Главная" },

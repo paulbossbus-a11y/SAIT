@@ -1,9 +1,12 @@
 import { LinkButton } from "@/components/ui/Button";
+import FallingCameras from "@/components/ui/FallingCameras";
 
 export default function Hero() {
   return (
     <section className="relative overflow-hidden border-b border-border">
       <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top_right,_var(--color-surface-muted),_transparent_60%)]" />
+      <FallingCameras />
+
       <div className="container-x flex flex-col items-start gap-6 py-24 md:py-32">
         <span className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-1.5 text-xs font-medium uppercase tracking-wider text-muted">
           Видеограф и режиссёр

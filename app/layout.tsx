@@ -16,10 +16,11 @@ const unbounded = Unbounded({
 });
 
 export const metadata: Metadata = {
-  title: "Данил Колодин — видеограф и режиссёр | Реклама, съёмка мероприятий",
+  title: "Криворучко Павел — видеограф и режиссёр | Реклама, съёмка мероприятий",
   description:
     "Снимаю рекламные ролики, видео для мероприятий и соцсетей. Работаю с командой и в одиночку. Быстро, профессионально, с результатом, который продаёт.",
 };
+
 
 const themeInitScript = `
 (function () {
@@ -40,8 +41,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="ru"
       className={`${manrope.variable} ${unbounded.variable} h-full antialiased`}
+      data-scroll-behavior="smooth"
       suppressHydrationWarning
     >
+
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
       </head>
